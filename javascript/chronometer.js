@@ -6,7 +6,7 @@ class Chronometer {
 
   start(callback) {
     this.intervalId = setInterval(()=>{
-      if(callback !== undefined) {
+      if (callback !== undefined) {
         callback();
       }
       this.currentTime+=1;

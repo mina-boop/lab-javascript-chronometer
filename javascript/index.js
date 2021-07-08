@@ -14,10 +14,14 @@ const milUniElement = document.getElementById('milUni');
 const splitsElement = document.getElementById('splits');
 
 function printTime() {
+  printMinutes();
+  printSeconds();
   // ... your code goes here
 }
 
 function printMinutes() {
+  const minutes= chronometer.splitClick().split (':') 
+
   // ... your code goes here
 }
 
